@@ -1,0 +1,7 @@
+# Supplied assessment files (client documents: not for a public repo)
+.orig/
+*.zip
+FDL_Technical_Master_Sheet_Candidate_Edition.docx
+
+__pycache__/
+*.pyc

@@ -1,0 +1,35 @@
+$ python --version
+Python 3.15.0
+$ python -m unittest -v   (fixed code: supplied tests unchanged + test_profitability_edge.py)
+test_invalid_margin_rejected (test_profitability.ProfitabilityTests.test_invalid_margin_rejected) ... ok
+test_negative_expense_rejected (test_profitability.ProfitabilityTests.test_negative_expense_rejected) ... ok
+test_normal_load (test_profitability.ProfitabilityTests.test_normal_load) ... ok
+test_zero_mpg_rejected (test_profitability.ProfitabilityTests.test_zero_mpg_rejected) ... ok
+test_zero_revenue_margin (test_profitability.ProfitabilityTests.test_zero_revenue_margin) ... ok
+test_amount_beyond_decimal_precision_is_value_error (test_profitability_edge.InputTypes.test_amount_beyond_decimal_precision_is_value_error) ... ok
+test_decimal_cents_not_float_noise (test_profitability_edge.InputTypes.test_decimal_cents_not_float_noise) ... ok
+test_decimal_int_float_agree (test_profitability_edge.InputTypes.test_decimal_int_float_agree) ... ok
+test_large_revenue_exact_to_cent (test_profitability_edge.InputTypes.test_large_revenue_exact_to_cent) ... ok
+test_each_param_negative_rejected (test_profitability_edge.InvalidInputs.test_each_param_negative_rejected) ... ok
+test_non_finite_and_wrong_types_rejected (test_profitability_edge.InvalidInputs.test_non_finite_and_wrong_types_rejected) ... ok
+test_loss_making_load (test_profitability_edge.Margins.test_loss_making_load) ... ok
+test_zero_revenue_with_costs_is_minus_100 (test_profitability_edge.Margins.test_zero_revenue_with_costs_is_minus_100) ... ok
+test_zero_revenue_zero_costs_is_0 (test_profitability_edge.Margins.test_zero_revenue_zero_costs_is_0) ... ok
+test_mpg_zero_or_negative_rejected (test_profitability_edge.MilesAndMpg.test_mpg_zero_or_negative_rejected) ... ok
+test_tiny_mpg_accepted (test_profitability_edge.MilesAndMpg.test_tiny_mpg_accepted) ... ok
+test_zero_miles_zero_fuel (test_profitability_edge.MilesAndMpg.test_zero_miles_zero_fuel) ... ok
+test_each_percent_at_100_or_negative_rejected (test_profitability_edge.Percentages.test_each_percent_at_100_or_negative_rejected) ... ok
+test_sum_boundary (test_profitability_edge.Percentages.test_sum_boundary) ... ok
+test_zero_dispatch_and_zero_margin (test_profitability_edge.Percentages.test_zero_dispatch_and_zero_margin) ... ok
+test_break_even_rate_gives_zero_profit (test_profitability_edge.Properties.test_break_even_rate_gives_zero_profit) ... ok
+test_suggested_rate_hits_target_margin (test_profitability_edge.Properties.test_suggested_rate_hits_target_margin) ... ok
+test_half_up_where_float_round_fails (test_profitability_edge.Rounding.test_half_up_where_float_round_fails) ... ok
+test_negative_half_rounds_away_from_zero (test_profitability_edge.Rounding.test_negative_half_rounds_away_from_zero) ... ok
+test_tiny_loss_shows_zero_not_negative_zero (test_profitability_edge.Rounding.test_tiny_loss_shows_zero_not_negative_zero) ... ok
+test_non_round_inputs (test_profitability_edge.SecondScenario.test_non_round_inputs) ... ok
+test_result_shape (test_profitability_edge.SecondScenario.test_result_shape) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.004s
+
+OK
