@@ -106,5 +106,5 @@ Known limitations, left as they are on purpose and flagged for the owner:
 
 ## GitHub / Replit links
 
-Repository: _add link after pushing_. The project is plain Python with no install step. It runs anywhere with
+Repository: https://github.com/arkienz/fdl-final-assessment The project is plain Python with no install step. It runs anywhere with
 `python -m unittest -v`, including a Replit Python repl.
